@@ -1,6 +1,6 @@
 package com.andre.mstrabalhadores.services;
 
-import com.andre.mstrabalhadores.TrabalhadoresRepository;
+import com.andre.mstrabalhadores.repositories.TrabalhadoresRepository;
 import com.andre.mstrabalhadores.entities.Trabalhadores;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
