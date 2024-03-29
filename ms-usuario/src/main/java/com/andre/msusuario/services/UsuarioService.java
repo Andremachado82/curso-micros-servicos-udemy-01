@@ -3,7 +3,6 @@ package com.andre.msusuario.services;
 import com.andre.msusuario.entities.Usuario;
 import com.andre.msusuario.repositories.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 @Service

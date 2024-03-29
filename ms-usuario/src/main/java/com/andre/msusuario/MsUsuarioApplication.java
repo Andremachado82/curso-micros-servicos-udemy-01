@@ -11,15 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @SpringBootApplication
 public class MsUsuarioApplication {
 
-	@Autowired
-	private BCryptPasswordEncoder passwordEncoder;
-
 	public static void main(String[] args) {
 		SpringApplication.run(MsUsuarioApplication.class, args);
 	}
-
-//	@Override
-//	public void run(String... args) throws Exception {
-//		System.out.println("BCRYPT = " + passwordEncoder.encode("123456"));
-//	}
 }
